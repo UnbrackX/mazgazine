@@ -28,6 +28,12 @@ const Navbar = () => {
                 <i class="bx  bx-search"></i>
               </form>
             </li>
+            <li>
+              <i className="bx bx-heart"></i>
+            </li>
+            <li>
+              <i className="bx bx-cart"></i>
+            </li>
           </ul>
         </nav>
       </div>
