@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 import "./App.css";
 import "./App.css";
 // import Navbar from "./Components/Navbar/Navbar";
 import SignIn from "./Pages/Auth/SignIn";
+=======
+import './App.css'
+import Navbar from './Pages/Navbar/Navbar'
+>>>>>>> 944a75d944d5a99ae9131e47f532d5da033a0bb3
 
 function App() {
   return (

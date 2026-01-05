@@ -6,7 +6,7 @@ const Navbar = () => {
     <header className="navbar">
       <div className="container">
         <nav>
-          <a href="#">Exclusive</a>
+          <a className="logo" href="#">Exclusive</a>
           <ul>
             <li>
               <a href="#">Home</a>
@@ -21,7 +21,7 @@ const Navbar = () => {
               <a href="#">Sign Up</a>
             </li>
           </ul>
-          <ul>
+          <ul className="search_menu">
             <li>
               <form>
                 <input type="text" placeholder="What are you looking for?" />
