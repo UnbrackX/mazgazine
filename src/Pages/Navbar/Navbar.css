@@ -1,60 +1,61 @@
 .navbar {
-    padding: 3rem 0;
+  padding: 3rem 0;
 }
 
 .navbar nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar nav ul {
-    display: flex;
-    gap: 3rem;
+  display: flex;
+  gap: 3rem;
 }
 
 .navbar nav .logo {
-    font-size: 2rem;
-    font-weight: 600;
-    color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
 }
 
 .navbar ul li {
-    font-size: 1rem;
-    transition: 0.3s;
+  font-size: 1rem;
+  transition: 0.3s;
 }
 
 .navbar ul li:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .navbar nav ul li a {
-    color: #000;
+  color: #000;
 }
 
 .navbar .search_menu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .search_menu li form {
+  position: relative;
 }
 
 .navbar .search_menu li form input {
-    position: relative;
-    width: 250px;
-    height: 40px;
-    outline: none;
-    border: 1px solid grey;
-    padding: 0 30px 0 10px;
-    font-size: 1rem;
+  position: relative;
+  width: 250px;
+  height: 40px;
+  outline: none;
+  border: 1px solid grey;
+  padding: 0 40px 0 10px;
+  font-size: 1rem;
 }
 
 .navbar .search_menu li form i {
-    position: absolute;
-    top: 63px;
-    left: 83%;
-    font-size: 1.3rem;
-    color: grey;
-} 
-
-.navbar .search_menu li i {
-    font-size: 1.3rem;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  font-size: 1.3rem;
+  color: grey;
 }
